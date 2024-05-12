@@ -1,3 +1,11 @@
+## Fork Changes Compared to Layerex Version
+- Rewritten for easier use as a status bar element for [dwmblocks-async](https://github.com/UtkarshVerma/dwmblocks-async) or similar programs.
+- Fixed and made the status functionality default.
+- Status now displays device battery state in addition to the alias.
+- Input arguments are replaced with the environment variable `BLOCK_BUTTON` to control the script.
+- Code is greatly simplified while maintaining similar functionality.
+- Some effort was put into optimizing the script by reducing unnecessary calls to `bluetoothctl`.
+
 <div align="center">
 <h3>dmenu-bluetooth</h3>
 <img src="https://github.com/ClydeDroid/rofi-bluetooth/raw/master/.meta/menu.gif">
